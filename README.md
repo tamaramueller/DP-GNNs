@@ -23,8 +23,8 @@ In order to run the first experiment on the synthetic dataset, the following ste
 
 2. Run the follwing code for the default non-DP run on the **synthetic** dataset:
 
-``python src/experiments/synthetic_dataset.py``
+``python3 src/experiments/synthetic_dataset.py``
 
 3. By altering the parameters you can change the settings of the run. E.g. to run in in a DP setting with a maximum privacy budget of $\varepsilon=5$, run the following code:
 
-``python src/experiments/synthetic_dataset.py --dp 1 --max_epsilon 5``
+``python3 src/experiments/synthetic_dataset.py --dp 1 --max_epsilon 5``
