@@ -19,7 +19,7 @@ In order to run the first experiment on the synthetic dataset, the following ste
 
 1. Install the environment:
 
-``conda env create --file=environment.yaml``
+``conda env create --file=environment.yml``
 
 2. Run the follwing code for the default non-DP run on the **synthetic** dataset:
 
