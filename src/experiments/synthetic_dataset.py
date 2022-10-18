@@ -19,10 +19,10 @@ import utils.train_utils as train_utils
 if __name__ == "__main__":
 
     parser = argparse.ArgumentParser()
-    parser.add_argument("--learning_rate", "-lr", default=0.1, type=float, help="set learning rate")
+    parser.add_argument("--learning_rate", "-lr", default=0.01, type=float, help="set learning rate")
     parser.add_argument("--batch_size", "-bs", type=int, default=64, help="set batch size")
     parser.add_argument("--dropout", type=float, default=0)
-    parser.add_argument("--dp", "-dp", type=int, default=1)
+    parser.add_argument("--dp", "-dp", type=int, default=0)
     parser.add_argument("--clip", "-clip", type=float, default=10)
     parser.add_argument("--epochs", "-e", default=10, type=int, help="set number of epochs")
     parser.add_argument("--model_type", "-model", default="GCN", type=str, help="define the graph conv. e.g.: GAT, GCN, GraphSAGE")
