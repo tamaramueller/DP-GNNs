@@ -28,3 +28,15 @@ In order to run the first experiment on the synthetic dataset, the following ste
 3. By altering the parameters you can change the settings of the run. E.g. to run in in a DP setting with a maximum privacy budget of $\varepsilon=5$, run the following code:
 
 ``python3 src/experiments/synthetic_dataset.py --dp 1 --max_epsilon 5``
+
+### Citing
+If you use this work, please cite the following paper:
+
+```
+@article{mueller2022differentially,
+  title={Differentially Private Graph Classification with GNNs},
+  author={Mueller, Tamara T and Paetzold, Johannes C and Prabhakar, Chinmay and Usynin, Dmitrii and Rueckert, Daniel and Kaissis, Georgios},
+  journal={arXiv preprint arXiv:2202.02575},
+  year={2022}
+}
+```
