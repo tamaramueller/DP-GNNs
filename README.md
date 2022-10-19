@@ -3,6 +3,23 @@
 
 This repo contains code to train graph neural networks for graph classification tasks with differential privacy (DP). Check out our [paper](https://arxiv.org/pdf/2202.02575.pdf) for the details about the methods.
 
+### Abstract
+
+Graph Neural Networks (GNNs) have established themselves as the state-of-the-art models for
+many machine learning applications such as the analysis of social networks, protein interactions
+and molecules. Several among these datasets contain privacy-sensitive data. Machine learning with
+differential privacy is a promising technique to allow deriving insight from sensitive data while
+offering formal guarantees of privacy protection. However, the differentially private training of
+GNNs has so far remained under-explored due to the challenges presented by the intrinsic structural
+connectivity of graphs. In this work, we introduce differential privacy for graph-level classification,
+one of the key applications of machine learning on graphs. Our method is applicable to deep learning
+on multi-graph datasets and relies on differentially private stochastic gradient descent (DP-SGD). We
+show results on a variety of synthetic and public datasets and evaluate the impact of different GNN
+architectures and training hyperparameters on model performance for differentially private graph
+classification. Finally, we apply explainability techniques to assess whether similar representations
+are learned in the private and non-private settings and establish robust baselines for future work in
+this area.
+
 ### Repo Structure
 
 **the ``src`` folder:**
