@@ -19,3 +19,10 @@ def make_deterministic(SEED=13):
     # gpu_generator = torch.Generator(device="cuda").manual_seed(SEED)
     
     return cpu_generator, None# gpu_generator
+
+
+def convert_label_to_indicator_array(label, nr_classes):
+    vec = np.array([0] * nr_classes)
+    vec[label] = 1
+
+    return vec

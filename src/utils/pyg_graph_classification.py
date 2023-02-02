@@ -4,7 +4,7 @@ from ogb.graphproppred import PygGraphPropPredDataset, Evaluator
 from tqdm import tqdm
 import numpy as np
 from sklearn.metrics import f1_score, roc_auc_score
-import utils
+import utils.utils as utils
 import sklearn.metrics
 from sklearn import metrics
 
