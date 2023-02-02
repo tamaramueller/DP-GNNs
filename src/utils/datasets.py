@@ -4,8 +4,8 @@ import torch
 
 
 class MyOwnDataset(InMemoryDataset):
-    def __init__(self, data_list):
-        super(MyOwnDataset, self).__init__('/home/tamara/Desktop/TestDataset')
+    def __init__(self, data_list, path):
+        super(MyOwnDataset, self).__init__(path)
 
         self.num_graphs = len(data_list)
         self.num_tasks = 1
