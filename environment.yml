@@ -1,5 +1,4 @@
 name: dp_graph_classification
-name: dpgnns
 channels:
   - pytorch
   - conda-forge
